@@ -45,14 +45,16 @@ background-color: transparent;
 .navbar-header > a.navbar-brand:hover {
   color: black;
 }
-
 .navbar-default .navbar-brand {
   color: white;
   font-weight: lighter;
   font-size: 25px;
 }
-.panel-title > a {
-  color: #555;
+div.modal-footer > a > img {
+  width: 30px;
+}
+.modal-body > p > img {
+  width: 100px;
 }
 footer > a:hover{
   color: black;
