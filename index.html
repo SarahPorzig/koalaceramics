@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:100" rel="stylesheet">
+  <title>Sarah Porzig</title>
+</head>
+<body>
+<img id="navImage" src="images/smartWatch.jpg">
+  <!-- navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" id="brand" href="#">SARAH PORZIG<span class="subhead"> <!--- add sub-branding here if needed --> </span></a>
+        </div> <!-- navbar header -->
+
+        <div class="collapse navbar-collapse" id="collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" role="button" data-target="#aboutMe" data-toggle="modal">
+              About Me</a></li>
+            <li><a href="#" role="button" class="myProjectsButton">My Projects</a></li>
+            <li><a href="#" role="button" data-target="#contact" data-toggle="modal">Contact</a></li>
+          </ul>
+        </div><!-- collapse navbar-collapse -->
+      </div><!-- container -->
+    </nav>
+<!-- end navigation -->
+
+<div class="modal" id="aboutMe" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+        </button>
+        <h3 class="modal-title" id="modalLabel"> About Me </h3>
+      </div>
+      <div class="modal-body">
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ullamcorper lorem non lectus sagittis posuere. Curabitur sit amet bibendum elit. Sed eros nulla, convallis sed elit ut, facilisis pharetra diam. Aliquam ultricies turpis tellus, sed auctor arcu interdum vitae. In a sapien a mi fringilla vestibulum. Nulla ultricies, magna sit amet gravida molestie, turpis est tincidunt sapien, sit amet convallis urna quam non urna. Fusce vitae egestas lacus, vel mattis massa. Etiam ultrices aliquet metus, nec bibendum eros suscipit faucibus. Vivamus ac vulputate turpis.  </p>
+      </div>
+    </div><!-- modal content-->
+  </div><!-- modal dialog-->
+</div><!-- modal -->
+
+
+<div class="modal" id="contact" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+        </button>
+        <h3 class="modal-title" id="modalLabel"> Contact </h3>
+      </div>
+      <div class="modal-body">
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ullamcorper lorem non lectus sagittis posuere. Curabitur sit amet bibendum elit. Sed eros nulla, convallis sed elit ut, facilisis pharetra diam. Aliquam ultricies turpis tellus, sed auctor arcu interdum vitae. In a sapien a mi fringilla vestibulum. Nulla ultricies, magna sit amet gravida molestie, turpis est tincidunt sapien, sit amet convallis urna quam non urna. Fusce vitae egestas lacus, vel mattis massa. Etiam ultrices aliquet metus, nec bibendum eros suscipit faucibus. Vivamus ac vulputate turpis.  </p>
+      </div>
+    </div><!-- modal content-->
+  </div><!-- modal dialog-->
+</div><!-- modal -->
+
+<span role="button" class="glyphicon glyphicon-chevron-down chevron-down hidden-xs" aria-hidden="true"></span>
+
+<div id="block1" class="fluid-container">
+  <h1 id="blockHeading1" class="blockHeading"> My Projects </h1>
+</div>
+
+<!-- <div id="block1Small" class="fluid-container">
+  <h1 id="blockHeading1Small" class="hidden-sm hidden-md hidden-lg"> My Projects </h1>
+</div>-->
+
+
+<div id="block2">
+  <div id="carouselBlock" class="hidden-xs"><!-- carousel -->
+    <div class="carousel slide carousel-fade hidden-xs" id="carouselPortfolio" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselPortfolio" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselPortfolio" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="images/apple-imac-portfolio.jpeg" alt="Portfolio Project">
+        </div>
+        <div class="item">
+          <img src="images/apple-imac-caramar.jpeg" alt="Caramar Project">
+        </div>
+      </div><!--carousel inner-->
+        <a class="left carousel-control" href="#carouselPortfolio" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a class="right carousel-control" href="#carouselPortfolio" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+      </div><!-- carousel -->
+    </div><!-- carouselBlock-->
+<div class="container" id="portfolioContent">
+  <div class="col-xs-12 col-sm-6">
+    <img src="images/apple-imac-portfolio.jpeg" alt="Portfolio Project" class="img-responsive center-block">
+    <h2> My Portfolio Site </h2>
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ullamcorper lorem non lectus sagittis posuere. Curabitur sit amet bibendum elit. Sed eros nulla, convallis sed elit ut, facilisis pharetra diam. Aliquam ultricies turpis tellus, sed auctor arcu interdum vitae. In a sapien a mi fringilla vestibulum. Nulla ultricies, magna sit amet gravida molestie, turpis est tincidunt sapien, sit amet convallis urna quam non urna. Fusce vitae egestas lacus, vel mattis massa. Etiam ultrices aliquet metus, nec bibendum eros suscipit faucibus. Vivamus ac vulputate turpis.  </p>
+  </div>
+  <div class="col-xs-12 col-sm-6">
+    <img src="images/apple-imac-caramar.jpeg" alt="Caramar Project" class="img-responsive center-block">
+    <h2> Caramar Estate </h2>
+    <p>  Duis a urna quis mauris cursus lacinia. Nunc feugiat justo eget lacus lacinia lacinia. Vestibulum sit amet orci sit amet lectus lobortis mollis eu congue tellus. Donec et diam purus. Integer leo dolor, efficitur non nunc et, accumsan imperdiet nisl. Sed maximus elit id feugiat fermentum. Sed lacus lectus, tincidunt ut eleifend sed, hendrerit id diam. Vestibulum maximus ultrices urna, vitae aliquet mauris facilisis quis. Mauris a dolor varius, tincidunt eros congue, interdum odio. Donec quis dolor massa. Mauris at eleifend magna. Suspendisse egestas dolor risus, in ornare nulla hendrerit at. Cras cursus purus sed dapibus tempus. Proin auctor blandit porttitor. </p>
+  </div><!-- caramar -->
+</div>
+  <footer class="">
+           <a href="#" role="button" data-target="#aboutMe" data-toggle="modal">About Me</a>
+            <a href="#" role="button" class="myProjectsButton">My Projects</a>
+            <a href="#" role="button" data-target="#contact" data-toggle="modal">Contact</a>
+  </footer>
+</div><!-- block2-->
+
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
