@@ -51,6 +51,9 @@ background-color: transparent;
   font-weight: lighter;
   font-size: 25px;
 }
+.panel-title > a {
+  color: #555;
+}
 footer > a:hover{
   color: black;
 }
