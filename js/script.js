@@ -32,6 +32,7 @@ $(function() {
   $('[data-toggle="popover"]').popover();
 });
 
-$('.nav a').on('click', function(){
+/* $('.nav a').on('click', function(){
     $('.navbar-toggle').click()
 });
+*/
