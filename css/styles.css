@@ -1,5 +1,4 @@
 /* font backups */
-
 body {
 	font-family: "Helvetica Neue",Helvetica, 'Work Sans', Arial,sans-serif;
 }
@@ -10,8 +9,6 @@ body {
   font-family:"Helvetica Neue",Helvetica, 'Work Sans', Arial,sans-serif;
 }
 /* font backups end */
-
-
 
 #navImage {
   width: 100%;
@@ -52,9 +49,6 @@ background-color: transparent;
 }
 div.modal-footer > a > img {
   width: 30px;
-}
-.modal-body > p > img {
-  width: 100px;
 }
 footer > a:hover{
   color: black;
@@ -134,9 +128,10 @@ h2, h3 {
    div#block2 {
      margin-top: 150px;
    }
+	 .portfolioContentSection {
+		 padding-bottom: 20px;
+	 }
 }
-
-
 #block2 {
   position: absolute;
   margin-top: 300px;
@@ -144,6 +139,7 @@ h2, h3 {
 }
 #portfolioContent {
   padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 
