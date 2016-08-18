@@ -143,6 +143,12 @@ h2, h3 {
 }
 
 
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+
+
 /*
   Bootstrap Carousel Fade Transition (for Bootstrap 3.3.x)
   CSS from:       http://codepen.io/transportedman/pen/NPWRGq
