@@ -16,23 +16,18 @@ $(document).ready(function() {
   setInterval(block2, 1);
 
   $(".chevron-down").click(function() {
-$('html, body').animate({
+    $('html, body').animate({
     scrollTop: $("#block1").offset().top
-  }, 800);
+    }, 800);
+  });
+
+  $(".myProjectsButton").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#block1").offset().top
+    }, 800);
+  });
 });
 
-$(".myProjectsButton").click(function() {
-$('html, body').animate({
-  scrollTop: $("#block1").offset().top
-}, 800);
-});
-});
-
-$(function() {
-  $('[data-toggle="popover"]').popover();
-});
-
-/* $('.nav a').on('click', function(){
+$('.nav a').on('click', function(){
     $('.navbar-toggle').click()
 });
-*/
