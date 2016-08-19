@@ -1,3 +1,6 @@
 [submodule "caramarSite"]
 	path = caramarSite
 	url = https://github.com/SarahPorzig/caramarSite
+[submodule "LakesView"]
+	path = LakesView
+	url = https://github.com/SarahPorzig/LakesView
