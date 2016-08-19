@@ -47,6 +47,23 @@ background-color: transparent;
   font-weight: lighter;
   font-size: 25px;
 }
+p > a {
+  text-decoration: none;
+}
+
+p > a:hover{
+  text-decoration: none;
+}
+p > a:link{
+  text-decoration: none;
+}
+p > a:visited{
+  text-decoration: none;
+}
+p > a:active{
+  text-decoration: none;
+}
+
 div.modal-footer > a > img {
   width: 30px;
 }
