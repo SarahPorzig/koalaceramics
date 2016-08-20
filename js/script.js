@@ -26,8 +26,8 @@ $(document).ready(function() {
       scrollTop: $("#block1").offset().top
     }, 800);
   });
-});
+  $('.nav a').on('click', function(){
+      $('.navbar-toggle').click()
+  });
 
-$('.nav a').on('click', function(){
-    $('.navbar-toggle').click()
 });
