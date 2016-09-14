@@ -56,6 +56,9 @@ p > a:visited{
 p > a:active{
   text-decoration: none;
 }
+.portfolioContentSection {
+	padding-top: 70px;
+}
 div.modal-footer > a > img {
   width: 30px;
 }

@@ -4,3 +4,6 @@
 [submodule "LakesView"]
 	path = LakesView
 	url = https://github.com/SarahPorzig/LakesView
+[submodule "reactTemplateSite"]
+	path = reactTemplateSite
+	url = https://github.com/SarahPorzig/reactTemplateSite.git
