@@ -6,7 +6,7 @@ body {
   width: 100%;
   position: absolute;
   z-index: -1;
-  background-color: rgb(64, 64, 64);
+  background-color: white;
 }
 .navbar-default{
   background-color: transparent;
