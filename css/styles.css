@@ -130,7 +130,7 @@ p > a:active{
 }
 h2{
 	font-family:  'Helvetica Neue', 'Work Sans', Arial,sans-serif;
-  font-weight: lighter;
+  font-weight: 200;
   padding-bottom: 20px;
 }
 p{
@@ -142,7 +142,7 @@ p{
 }
 .blockHeading {
 	font-family:  'Helvetica Neue', 'Work Sans', Arial,sans-serif;
-  font-weight: lighter;
+  font-weight: 200;
   letter-spacing: 1px;
   text-align: center;
   font-size: 50px;
