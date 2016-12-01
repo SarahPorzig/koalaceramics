@@ -7,10 +7,10 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Work+Sans:200" rel="stylesheet">
+  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
   <title>Sarah Porzig</title>
 </head>
 <body>
-<img id="navImage" src="images/splashimac.png">
   <!-- navigation -->
     <nav class="navbar navbar-default" role="navigation">
       <div class="container">
@@ -21,148 +21,125 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" id="brand" href="#">SARAH PORZIG<span class="subhead"> <!--- add sub-branding here if needed --> </span></a>
+          <a class="navbar-brand" href="#"><img src="images/logo.png" id="brand" alt="logo"><span class="subhead"> <!--- add sub-branding here if needed --> </span></a>
         </div> <!-- navbar header -->
-
         <div class="collapse navbar-collapse" id="collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#" role="button" data-target="#aboutMe" data-toggle="modal">
+            <li><a href="#" role="button" class="aboutMeButton">
               About Me</a></li>
-            <li><a href="#" role="button" class="myProjectsButton">My Projects</a></li>
-            <li><a href="#" role="button" data-target="#contact" data-toggle="modal">Contact</a></li>
+            <li><a href="#" role="button" class="myProjectsButton">My Recent Projects</a></li>
           </ul>
         </div><!-- collapse navbar-collapse -->
       </div><!-- container -->
     </nav>
 <!-- end navigation -->
-
-<div class="modal" id="aboutMe" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
-        </button>
-        <h3 class="modal-title" id="modalLabel"> About Me </h3>
-      </div>
-      <div class="modal-body">
-        <p> I am a freelance Junior Web Developer focussed on delivering high quality websites to my clients using a variety of technologies including HTML, CSS, JavaScript, React.js, Apache, PHP and SQL. </p>
-        <p>I enjoy the process of building the foundations of a website and then transforming the basic skeleton into something visually appealing and functional. I particularly enjoy creating websites with simple user interfaces and seamless transitions.</p>
-        <p>I am passionate about the blending of design and technology. I enjoy being able to turn concepts into dynamic and exciting user interfaces and experiences. I find the world of technology inspiring and am excited to be involved in the field as the industry evolves.</p>
-        <p> Please feel free to have a look at my recent projects while you are here, you can also find me on LinkedIn and GitHub at the links below. </p>
-        <p> Sarah </p>
-      </div><!-- modal body-->
-      <div class="modal-footer">
-        <a href="https://www.linkedin.com/in/sarah-porzig-59900687"><img src="images/socialMedia/linkedin_circle_black.png" alt="linkedin icon"></a>
-          <a href="https://github.com/SarahPorzig"><img src="images/socialMedia/github_circle_black.png" alt="github icon"></a>
-        </div><!-- modal footer-->
-    </div><!-- modal content-->
-  </div><!-- modal dialog-->
-</div><!-- modal -->
-
-<div class="modal" id="contact" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
-        </button>
-        <h3 class="modal-title" id="modalLabel"> Contact </h3>
-      </div>
-      <div class="modal-body">
-        <p> Please feel free to contact me via email at sarahporzig@icloud.com</p>
-      </div>
-    </div><!-- modal content-->
-  </div><!-- modal dialog-->
-</div><!-- modal -->
-
-<span role="button" class="glyphicon glyphicon-chevron-down chevron-down hidden-xs" aria-hidden="true"></span>
-
-<div id="block1" class="fluid-container">
-  <h1 id="blockHeading1" class="blockHeading"> My Projects </h1>
-</div>
-
-<div id="block2">
-  <div id="carouselBlock" class="hidden-xs">
-    <div class="carousel slide carousel-fade hidden-xs" id="carouselPortfolio" data-ride="carousel"><!-- carousel -->
-      <ol class="carousel-indicators">
-        <li data-target="#carouselPortfolio" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselPortfolio" data-slide-to="1"></li>
-        <li data-target="#carouselPortfolio" data-slide-to="2"></li>
-        <li data-target="#carouselPortfolio" data-slide-to="3"></li>
-      </ol>
-      <div class="carousel-inner">
-      <div class="item active">
-          <img src="images/apple-imac-figliamadre.jpeg" alt="Caramar Project">
-        </div>
-        <div class="item">
-          <img src="images/apple-imac-portfoliov2.jpeg" alt="Portfolio Project">
-        </div>
-        <div class="item">
-          <img src="images/apple-imac-reacttemplate.jpeg" alt="React Template Project">
-        </div>
-        <div class="item">
-          <img src="images/apple-imac-LakesView.jpeg" alt="Lakes View Project">
-        </div>
-      </div><!--carousel inner-->
-      <a class="left carousel-control" href="#carouselPortfolio" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#carouselPortfolio" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- carousel -->
-  </div><!-- carouselBlock-->
-    <div class="container" id="portfolioContent">
-      <div class="portfolioContentSection col-xs-12 col-sm-6">
-        <p> <a href="http://figliamadre.com.au" target="_blank"><img src="images/apple-imac-figliamadre.jpeg" alt="Figlia & Madre Project" class="img-responsive center-block"></a>
-        <h2> Figlia &amp; Madre eCommerce Site </h2>
-        <p class="buttons"> <span class="label label-default">React.js</span> <span class="label label-default">HTML5</span> <span class="label label-default">CSS3</span>  <span class="label label-default">jQuery</span> <span class="label label-default">Javascript</span> <span class="label label-default">Amazon Web Services</span> <span class="label label-default">Shopify</span> <span class="label label-default">Git</span> <span class="label label-default">Bitbucket</span> <span class="label label-default">Trello</span></p>
-        <p> I contributed to this eCommerce project in the role of Junior Web Developer. I coded site components according to design specifications and tested site components across various devices. </p>
-        <p> <a href="http://figliamadre.com.au" target="_blank"><span class="label label-default">Visit the Site</span></a> </p>
-        <img src="images/FigmadColorPalette.png" alt="My Portfolio Site Color Palette" class="colorPalette img-responsive center-block">
-
-      </div><!-- figlia and madre -->
-      <div class="portfolioContentSection col-xs-12 col-sm-6">
-        <p> <a href="index.html" target="_self"><img src="images/apple-imac-portfoliov2.jpeg" alt="Portfolio Project" class="img-responsive center-block"></a>
-        <h2> My Portfolio Site </h2>
-        <p class="buttons"> <span class="label label-default">HTML5</span> <span class="label label-default">CSS3</span> <span class="label label-default">JavaScript</span> <span class="label label-default">jQuery</span> <span class="label label-default">Bootstrap 3</span> <span class="label label-default">Git</span> <span class="label label-default">GitHub</span></p>
-        <p>I created this site as a place to display my recent projects. The site has a sleek, minimalist look with images spanning the width of the page contrasted against a white background. Movement and navigation across the site is pleasing with seamless transitions. The site is easy to use and visually appealing across all platforms.</p>
-        <p> <a href="index.html" target="_self"><span class="label label-default">Visit the Site</span></a> </p>
-        <img src="images/myPortfolioColorPalette.png" alt="My Portfolio Site Color Palette" class="colorPalette img-responsive center-block">
-        <br />
-      </div><!-- my portfolio -->
-    <div class="portfolioContentSection col-xs-12 col-sm-6">
-      <p> <a href="reactTemplateSite/index.html" target="_blank"><img src="images/apple-imac-reacttemplate.jpeg" alt="React Template Project" class="img-responsive center-block"></a>
-      <h2> Neutral Website Template </h2>
-      <p class="buttons"> <span class="label label-default">React.js</span> <span class="label label-default">HTML5</span> <span class="label label-default">CSS3</span> <span class="label label-default">JavaScript</span> <span class="label label-default">jQuery</span> <span class="label label-default">Git</span> <span class="label label-default">GitHub</span> </p>
-      <p> A current personal project involving the creation of a neutral website template using React.js. The warm and neutral colours featured across the site are comfortable and welcoming. White space has been used carefully to break up the site components and create a open feel. The site currently has a single page layout with the design potential for additional pages.</p>
-      <p> <a href="reactTemplateSite/index.html" target="_blank"><span class="label label-default">Visit the Site</span></a> </p>
-      <img src="images/reactTemplateColorPalette.png" alt="React Template Site Color Palette" class="colorPalette img-responsive center-block">
-    </div><!-- react -->
-    <div class="portfolioContentSection col-xs-12 col-sm-6">
-      <p> <a href="LakesView/index.html" target="_blank"><img src="images/apple-imac-LakesView.jpeg" alt="Caramar Project" class="img-responsive center-block"></a>
-      <h2> Lakes View Miniature Horse Stud </h2>
-      <p class="buttons"> <span class="label label-default">HTML5</span> <span class="label label-default">CSS3</span> <span class="label label-default">JavaScript</span> <span class="label label-default">jQuery</span> <span class="label label-default">Bootstrap 3</span> <span class="label label-default">Git</span> <span class="label label-default">GitHub</span> </p>
-      <p> A current project involving the creation of a website for Lakes View Miniature Horse Stud. The lush greens, bright blues and rich browns featured in the imagery across the site are reminiscent of horses and the outdoors while the mindful application of white space ensures viewing that is easy on the eye. The single page layout flows and transitions smoothly and with ease. The design is compatible and pleasing to use across all platforms. </p>
-      <p> <a href="LakesView/index.html" target="_blank"><span class="label label-default">Visit the Site</span></a> </p>
-      <img src="images/ColorPaletteLakessView.png" alt="Caramar Site Color Palette" class="colorPalette img-responsive center-block">
-    </div><!-- LakesView -->
-    
-    <!-- <div class="portfolioContentSection col-xs-12 col-sm-6">
-     <a href="caramarSite/index.html" target="_blank"><img src="images/apple-imac-caramar.jpeg" alt="Caramar Project" class="img-responsive center-block"></a>
-      <h2> Caramar Estate </h2>
-      <p class="buttons"> <span class="label label-default">HTML5</span> <span class="label label-default">CSS3</span> <span class="label label-default">JavaScript</span> <span class="label label-default">jQuery</span> <span class="label label-default">Bootstrap 3</span><span class="label label-default">Git</span><span class="label label-default">GitHub</span></p>
-      <p> A place to showcase all that is 'Caramar' Estate. 'Caramar' is located in South West Victoria near the Otways and is surrounded by native bush, inspiring the use of dark and lush forest green across this site. The site theme and structure gives a soft, peaceful feel reminicent of the countryside. The application of whitespace is comfortable and pleasant for the eye, heightening the user experience. A carousel central to the page displays scenic photography taken across the property. The site is visually appealing and easy to use across all platforms. </p>
-      <p> <a href="caramarSite/index.html" target="_blank"><span class="label label-default">Visit the Site</span></a> </p>
-      <img src="images/caramarColorPalette.png" alt="Caramar Site Color Palette" class="colorPalette img-responsive center-block">
-    </div> -->
-
-
+  <img id="navImage" src="images/splashimac.png">
+  <div id="aboutMe" class="aboutMe edge--both">
+    <h1 class="blockHeading">About Me</h1>
+    <div class="container">
+      <p> I am a freelance Junior Web Developer focussed on delivering high quality websites to my clients using a variety of technologies including HTML, CSS, JavaScript, React.js, Apache, PHP and SQL. </p>
+      <p>I enjoy the process of building the foundations of a website and then transforming the basic skeleton into something visually appealing and functional. I particularly enjoy creating websites with simple user interfaces and seamless transitions.</p>
+      <p>I am passionate about the blending of design and technology. I enjoy being able to turn concepts into dynamic and exciting user interfaces and experiences. I find the world of technology inspiring and am excited to be involved in the field as the industry evolves.</p>
+      <p> Please feel free to have a look at my recent projects while you are here, you can also find me on LinkedIn and GitHub at the links below. </p>
+      <!-- Carousel -->
+    </div> <!-- container -->
   </div>
-  <footer class="">
-   <!-- <a href="#" role="button" data-target="#aboutMe" data-toggle="modal">About Me</a>
-    <a href="#" role="button" class="myProjectsButton">My Projects</a>
-    <a href="#" role="button" data-target="#contact" data-toggle="modal">Contact</a> -->
+  <div id="carousel" class="fluid-container">
+      <div id="carouselBlock" class="hidden-xs">
+        <div class="carousel slide carousel-fade hidden-xs" id="carouselPortfolio" data-ride="carousel"><!-- carousel -->
+          <ol class="carousel-indicators">
+            <li data-target="#carouselPortfolio" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselPortfolio" data-slide-to="1"></li>
+            <li data-target="#carouselPortfolio" data-slide-to="2"></li>
+            <li data-target="#carouselPortfolio" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+          <div class="item active">
+              <img src="images/imacwhiteprojectsfigmad.png" alt="Caramar Project">
+            </div>
+            <div class="item">
+              <img src="images/imacwhiteprojectsportfolio.png" alt="Portfolio Project">
+            </div>
+            <div class="item">
+              <img src="images/imacwhiteprojectsreact.png" alt="React Template Project">
+            </div>
+            <div class="item">
+              <img src="images/imacwhiteprojectslakesview.png" alt="Lakes View Project">
+            </div>
+          </div><!--carousel inner-->
+          <a class="left carousel-control" href="#carouselPortfolio" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+          <a class="right carousel-control" href="#carouselPortfolio" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div><!-- carousel -->
+    </div><!-- carouselBlock-->
+  </div>
+  <div id="myProjects" class="fluid-container">
+    <h1 class="blockHeading"> My Recent Projects </h1>
+  </div>
+  <div id="block2">
+      <div class="container" id="portfolioContent">
+        <div class="portfolioContentSection col-xs-12">
+          <p> <a href="http://figliamadre.com.au" target="_blank"><img src="images/imacwhiteprojectsfigmad.png" alt="Figlia & Madre Project" class="img-responsive center-block"></a>
+          <h2> Figlia &amp; Madre eCommerce Site </h2>
+          <p class="buttons"> <span class="label label-default">React.js</span> <span class="label label-default">HTML5</span> <span class="label label-default">CSS3</span>  <span class="label label-default">jQuery</span> <span class="label label-default">Javascript</span> <span class="label label-default">Amazon Web Services</span> <span class="label label-default">Shopify</span> <span class="label label-default">Git</span> <span class="label label-default">Bitbucket</span> <span class="label label-default">Trello</span></p>
+          <p> I contributed to this eCommerce project in the role of Junior Web Developer. I coded site components according to design specifications and tested site components across various devices. </p>
+          <p> <a href="http://figliamadre.com.au" target="_blank"><span class="label label-default">Visit the Site</span></a> </p>
+          <img src="images/FigmadColorPalette.png" alt="My Portfolio Site Color Palette" class="colorPalette img-responsive center-block">
+        </div><!-- figlia and madre -->
+        <div class="portfolioContentSection col-xs-12">
+          <p> <a href="index.html" target="_self"><img src="images/imacwhiteprojectsportfolio.png" alt="Portfolio Project" class="img-responsive center-block"></a>
+          <h2> My Portfolio Site </h2>
+          <p class="buttons"> <span class="label label-default">HTML5</span> <span class="label label-default">CSS3</span> <span class="label label-default">JavaScript</span> <span class="label label-default">jQuery</span> <span class="label label-default">Bootstrap 3</span> <span class="label label-default">Git</span> <span class="label label-default">GitHub</span></p>
+          <p>I created this site as a place to display my recent projects. The site has a sleek, minimalist look with images spanning the width of the page contrasted against a white background. Movement and navigation across the site is pleasing with seamless transitions. The site is easy to use and visually appealing across all platforms.</p>
+          <p> <a href="index.html" target="_self"><span class="label label-default">Visit the Site</span></a> </p>
+          <img src="images/myPortfolioColorPalette.png" alt="My Portfolio Site Color Palette" class="colorPalette img-responsive center-block">
+          <br />
+        </div><!-- my portfolio -->
+        <div class="portfolioContentSection col-xs-12">
+          <p> <a href="reactTemplateSite/index.html" target="_blank"><img src="images/imacwhiteprojectsreact.png" alt="React Template Project" class="img-responsive center-block"></a>
+          <h2> Neutral Website Template </h2>
+          <p class="buttons"> <span class="label label-default">React.js</span> <span class="label label-default">HTML5</span> <span class="label label-default">CSS3</span> <span class="label label-default">JavaScript</span> <span class="label label-default">jQuery</span> <span class="label label-default">Git</span> <span class="label label-default">GitHub</span> </p>
+          <p> A current personal project involving the creation of a neutral website template using React.js. The warm and neutral colours featured across the site are comfortable and welcoming. White space has been used carefully to break up the site components and create a open feel. The site currently has a single page layout with the design potential for additional pages.</p>
+          <p> <a href="reactTemplateSite/index.html" target="_blank"><span class="label label-default">Visit the Site</span></a> </p>
+          <img src="images/reactTemplateColorPalette.png" alt="React Template Site Color Palette" class="colorPalette img-responsive center-block">
+        </div><!-- react -->
+        <div class="portfolioContentSection col-xs-12">
+          <p> <a href="LakesView/index.html" target="_blank"><img src="images/imacwhiteprojectslakesview.png" alt="Caramar Project" class="img-responsive center-block"></a>
+          <h2> Lakes View Miniature Horse Stud </h2>
+          <p class="buttons"> <span class="label label-default">HTML5</span> <span class="label label-default">CSS3</span> <span class="label label-default">JavaScript</span> <span class="label label-default">jQuery</span> <span class="label label-default">Bootstrap 3</span> <span class="label label-default">Git</span> <span class="label label-default">GitHub</span> </p>
+          <p> A current project involving the creation of a website for Lakes View Miniature Horse Stud. The lush greens, bright blues and rich browns featured in the imagery across the site are reminiscent of horses and the outdoors while the mindful application of white space ensures viewing that is easy on the eye. The single page layout flows and transitions smoothly and with ease. The design is compatible and pleasing to use across all platforms. </p>
+          <p> <a href="LakesView/index.html" target="_blank"><span class="label label-default">Visit the Site</span></a> </p>
+          <img src="images/ColorPaletteLakessView.png" alt="Caramar Site Color Palette" class="colorPalette img-responsive center-block">
+        </div><!-- LakesView -->
+      <!-- <div class="portfolioContentSection col-xs-12 col-sm-6">
+       <a href="caramarSite/index.html" target="_blank"><img src="images/apple-imac-caramar.jpeg" alt="Caramar Project" class="img-responsive center-block"></a>
+        <h2> Caramar Estate </h2>
+        <p class="buttons"> <span class="label label-default">HTML5</span> <span class="label label-default">CSS3</span> <span class="label label-default">JavaScript</span> <span class="label label-default">jQuery</span> <span class="label label-default">Bootstrap 3</span><span class="label label-default">Git</span><span class="label label-default">GitHub</span></p>
+        <p> A place to showcase all that is 'Caramar' Estate. 'Caramar' is located in South West Victoria near the Otways and is surrounded by native bush, inspiring the use of dark and lush forest green across this site. The site theme and structure gives a soft, peaceful feel reminicent of the countryside. The application of whitespace is comfortable and pleasant for the eye, heightening the user experience. A carousel central to the page displays scenic photography taken across the property. The site is visually appealing and easy to use across all platforms. </p>
+        <p> <a href="caramarSite/index.html" target="_blank"><span class="label label-default">Visit the Site</span></a> </p>
+        <img src="images/caramarColorPalette.png" alt="Caramar Site Color Palette" class="colorPalette img-responsive center-block">
+      </div> -->
+    </div><!-- container-->
+  </div><!-- block2-->
+  <footer class="footer">
+    <div class="container">
+     <div class="col-xs-12 col-sm-4 footerSection">
+     Contact: <br /><br />
+      <a href="mailto:sarahporzig@icloud.com" target="_top">sarahporzig@icloud.com</a>
+     </div>
+      <div class="col-xs-12 col-sm-4 footerSection">
+        <a href="#" role="button" class="aboutMeButton">About Me</a> <br /><br />
+        <a href="#" role="button" class="myProjectsButton">My Recent Projects</a>
+     </div>
+     <div class="col-xs-12 col-sm-4 footerSection">
+       Places you can find me: <br /> <br />
+       <a href="https://github.com/SarahPorzig"><img class="socialMedia" src="images/socialMedia/github.png" alt="github icon"> GitHub</a> <br />
+      <a href="https://www.linkedin.com/in/sarah-porzig-59900687"><img class="socialMedia" src="images/socialMedia/linkedin.png" alt="linkedin icon"> LinkedIn</a><br />
+      <a href="https://www.instagram.com/sarahjane2765/"><img class="socialMedia" src="images/socialMedia/instagram.png" alt="instagram icon"> Instagram</a><br />
+     </div>
+    </div>
   </footer> 
-</div><!-- block2-->
-
-<script src="js/jquery-3.1.0.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/script.js"></script>
-</body>
-</html>
+  <script src="js/jquery-3.1.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  </body>
+  </html>

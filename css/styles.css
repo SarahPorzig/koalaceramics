@@ -1,12 +1,13 @@
 body {
 	font-family:  'Helvetica Neue', 'Open Sans', Arial,sans-serif;
+  color: #656565;
 }
-
 #navImage {
   width: 100%;
-  position: absolute;
+  position: relative;
   z-index: -1;
   background-color: white;
+  margin-bottom: 100px;
 }
 .navbar-default{
   background-color: transparent;
@@ -14,32 +15,43 @@ body {
 }
 .navbar-nav > li > a {
 	font-family:  'Helvetica Neue', 'Work Sans', Arial,sans-serif;
-  font-weight: lighter;
-  font-size: 25px;
+  color: #656565;
+  font-weight: 200;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-right: 30px;
+  padding-left: 30px;
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
 }
-.navbar-default .navbar-nav > li > a{
-  color: black;
+.navbar-nav > li > a:hover {
+  opacity: 0.5;
 }
 .navbar-default .navbar-nav > li > a:visited{
-  color: black;
-}
-.navbar-default .navbar-nav > li > a:hover{
-  color: black;
+  color: #656565;
 }
 .navbar-brand {
 background-color: transparent;
 }
 .navbar-header > a.navbar-brand:visited {
-  color: black;
+  color: #656565
 }
 .navbar-header > a.navbar-brand:hover {
-  color: black;
+  color: #979797;
 }
 .navbar-default .navbar-brand {
-  color: black;
+  color: #656565;
 	font-family:  'Helvetica Neue', 'Work Sans', Arial,sans-serif;
   font-weight: lighter;
   font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#brand {
+  width: 170px;
 }
 p > a {
   text-decoration: none;
@@ -57,10 +69,10 @@ p > a:active{
   text-decoration: none;
 }
 .portfolioContentSection {
-	padding-top: 70px;
-  padding-bottom: 50px;
-  padding-left: 40px;
-  padding-right: 40px;
+	padding-top: 0px;
+  padding-bottom: 250px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .label {
   margin: 5px;
@@ -69,97 +81,182 @@ p > a:active{
 .buttons {
   padding-bottom: 10px;
 }
-div.modal-footer > a > img {
+.socialMedia {
   width: 30px;
-}
-footer > a:hover{
-  color: black;
-}
-footer > a:link{
-  text-decoration: none;
-}
-footer > a:visited {
-		text-decoration:none;
-    color: white;
-}
-footer > a {
-	font-family:  'Helvetica Neue', 'Work Sans', Arial,sans-serif;
-  font-weight: lighter;
-  font-size: 20px;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-footer {
-  background-color: black;
-  text-align: center;
-  padding-top: 10px;
   padding-bottom: 10px;
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
 }
-h2, h3 {
+.socialMedia:hover {
+  opacity: 0.5;
+}
+.footer {
+  background-color: #FFE8E8;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  margin-top: 100px;
+  position: relative;
+  width: 100%;
+  font-family:  'Helvetica Neue', 'Work Sans', Arial,sans-serif;
+  color: #656565;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.footer > div > div > a {
+  text-decoration: none;
+  color: #656565;
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+.footer > div > div > a:hover {
+  opacity: 0.5;
+}
+.footer:before{
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  transform-origin: left top;
+  transform: skewY(-3deg);
+}
+h2{
 	font-family:  'Helvetica Neue', 'Work Sans', Arial,sans-serif;
   font-weight: lighter;
   padding-bottom: 20px;
 }
+p{
+   text-align: justify;
+   font-family:  'Helvetica Neue', 'Open Sans', Arial,sans-serif;
+}
 #smallProjectBlock > p {
   padding-left: 10px;
-}
-.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:hover {
-	color: black;
-}
-.chevron-down {
-  text-align: center;
-  color: black;
-  font-size: 50px;
-  position: absolute;
-  left: 50%;
-  margin-left: -30px;
-  margin-top: -100px;
 }
 .blockHeading {
 	font-family:  'Helvetica Neue', 'Work Sans', Arial,sans-serif;
   font-weight: lighter;
+  letter-spacing: 1px;
   text-align: center;
   font-size: 50px;
+  padding-bottom: 20px;
 }
-#block1 {
+.aboutMe {
+  background: #FFE8E8;
+  position: relative;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* Concept for skewed edges taken from http://www.hongkiat.com/blog/skewed-edges-css/ */
+.aboutMe:after{
+  content: '';
+  width: 100%;
+  height: 100%;
   position: absolute;
-  margin-top: 100px;
-  text-align: center;
-  margin-left: -130px;
-  display: block;
-  left: 50%;
+  background: inherit;
+  z-index: -1;
+  bottom: 0;
+  transform-origin: left bottom;
+  transform: skewY(3deg);
+}
+.aboutMe:before{
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  transform-origin: left top;
+  transform: skewY(-3deg);
+}
+#myProjects {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #E5E5E5;
+}
+/* Concept for skewed edges taken from http://www.hongkiat.com/blog/skewed-edges-css/ */
+#myProjects:after{
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  bottom: 0;
+  transform-origin: right bottom;
+  transform: skewY(3deg);
+}
+#myProjects:before{
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  transform-origin: right top;
+  transform: skewY(-3deg);
+}
+#carousel {
+  margin-bottom: 150px;
+  padding-top: 300px;
+}
+.colorPalette {
+  opacity: 0.5;
 }
 @media (max-width: 767px) {
-  #blockHeading1 {
+  .blockHeading {
 		font-family:  'Helvetica Neue', 'Work Sans', Arial,sans-serif;
     font-weight: lighter;
     text-align: center;
     font-size: 30px;
   }
   #block1 {
-    position: absolute;
+    position: relative;
     margin-top: 50px;
     text-align: center;
-    margin-left: -70px;
     display: block;
-    left: 50%;
+  }
+  #brand {
+  width: 55px;
+  }
+  .navbar-nav > li > a {
+    font-size: 15px;
+  }
+  .footerSection {
+    padding-bottom: 30px;
   }
   footer > a {
      font-size: 15px;
    }
    div#block2 {
-     margin-top: 150px;
+     margin-top: 50px;
    }
 	 .portfolioContentSection {
-		 padding-bottom: 20px;
+		 padding-bottom: 120px;
 	 }
+   #carousel {
+  margin-bottom: 0px;
+  padding-top: 100px;
+  }
+  #myProjects {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 #block2 {
-  position: absolute;
-  margin-top: 300px;
+  position: relative;
+  margin-top: 100px;
   display: block;
 }
 #portfolioContent {
