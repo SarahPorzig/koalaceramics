@@ -14,7 +14,7 @@ body {
   border-color: transparent;
 }
 .navbar-nav > li > a {
-	font-family:  'Helvetica Neue', 'Work Sans', Arial,sans-serif;
+	font-family:  'Helvetica Neue', 'Open Sans', Arial,sans-serif;
   color: #656565;
   font-weight: 200;
   font-size: 22px;
@@ -44,7 +44,7 @@ background-color: transparent;
 }
 .navbar-default .navbar-brand {
   color: #656565;
-	font-family:  'Helvetica Neue', 'Work Sans', Arial,sans-serif;
+	font-family:  'Helvetica Neue', 'Open Sans', Arial,sans-serif;
   font-weight: lighter;
   font-size: 25px;
   text-transform: uppercase;
@@ -99,7 +99,7 @@ p > a:active{
   margin-top: 100px;
   position: relative;
   width: 100%;
-  font-family:  'Helvetica Neue', 'Work Sans', Arial,sans-serif;
+  font-family:  'Helvetica Neue', 'Open Sans', Arial,sans-serif;
   color: #656565;
   font-size: 15px;
   letter-spacing: 1px;
@@ -129,7 +129,7 @@ p > a:active{
   transform: skewY(-3deg);
 }
 h2{
-	font-family:  'Helvetica Neue', 'Work Sans', Arial,sans-serif;
+	font-family:  'Helvetica Neue', 'Open Sans', Arial,sans-serif;
   font-weight: 200;
   padding-bottom: 20px;
 }
@@ -141,7 +141,7 @@ p{
   padding-left: 10px;
 }
 .blockHeading {
-	font-family:  'Helvetica Neue', 'Work Sans', Arial,sans-serif;
+	font-family:  'Helvetica Neue', 'Open Sans', Arial,sans-serif;
   font-weight: 200;
   letter-spacing: 1px;
   text-align: center;
@@ -216,7 +216,7 @@ p{
 }
 @media (max-width: 767px) {
   .blockHeading {
-		font-family:  'Helvetica Neue', 'Work Sans', Arial,sans-serif;
+		font-family:  'Helvetica Neue', 'Open Sans', Arial,sans-serif;
     font-weight: lighter;
     text-align: center;
     font-size: 30px;
