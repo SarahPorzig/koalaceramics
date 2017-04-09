@@ -7,15 +7,19 @@ body {
   position: relative;
   z-index: -1;
   background-color: white;
-  margin-bottom: 100px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 .navbar-default{
   background-color: transparent;
   border-color: transparent;
+  margin-bottom: 0px;
+  position: absolute;
+  width: 100%;
 }
 .navbar-nav > li > a {
 	font-family:  'Helvetica Neue', Arial,sans-serif;
-  color: #656565;
+  color: #ffffff !important; 
   font-weight: 200;
   font-size: 22px;
   text-transform: uppercase;
@@ -52,6 +56,8 @@ background-color: transparent;
 }
 #brand {
   width: 170px;
+  -webkit-filter: invert(1);
+   filter: invert(1);
 }
 p > a {
   text-decoration: none;
@@ -154,6 +160,7 @@ p{
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
+  z-index: 1;
 }
 /* Concept for skewed edges taken from http://www.hongkiat.com/blog/skewed-edges-css/ */
 .aboutMe:after{
@@ -183,6 +190,7 @@ p{
   padding-top: 100px;
   padding-bottom: 100px;
   background: #E5E5E5;
+  z-index: 1;
 }
 /* Concept for skewed edges taken from http://www.hongkiat.com/blog/skewed-edges-css/ */
 #myProjects:after{
@@ -208,9 +216,18 @@ p{
   transform: skewY(-3deg);
 }
 #carousel {
-  margin-bottom: 150px;
-  padding-top: 300px;
+  margin-bottom: 0px;
+  padding-top: 0px;
 }
+
+.carousel-inner>.item>img{
+  z-index: -1;
+}
+
+ol.carousel-indicators {
+margin-bottom: 60px;
+}
+
 .colorPalette {
   opacity: 0.5;
 }
@@ -248,6 +265,7 @@ p{
    #carousel {
   margin-bottom: 0px;
   padding-top: 100px;
+  z-index: -1;
   }
   #myProjects {
     padding-top: 30px;
