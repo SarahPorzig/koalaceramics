@@ -18,11 +18,11 @@ body {
   margin-bottom: 100px;
 }
 .navbar-nav > li > a {
-	font-family:  'Helvetica Neue', Arial,sans-serif;
-  color: black !important; 
+	font-family:  Times, Arial,sans-serif;
+  color: #656565 !important; 
   font-weight: 200;
-  font-size: 18px;
-  text-transform: uppercase;
+  font-size: 20px;
+  text-transform: lowercase;
   letter-spacing: 1px;
   padding-right: 30px;
   padding-left: 30px;
@@ -39,22 +39,22 @@ body {
 }
 .navbar-brand {
 background-color: transparent;
+margin-top:30px;
 }
 .navbar-brand > img {
 display: inline;
 }
 .navbar-header > a.navbar-brand:visited {
-  color: #656565
+  color: #C3789B;
 }
 .navbar-header > a.navbar-brand:hover {
-  color: #979797;
+  color: #FF9CCA;
 }
 .navbar-default .navbar-brand {
-  color: #656565;
-	font-family:  'Helvetica Neue', Arial,sans-serif;
-  font-weight: lighter;
-  font-size: 25px;
-  text-transform: uppercase;
+  color: #C3789B;
+	font-family: Times, serif;
+  font-size: 33px;
+  text-transform: lowercase;
   letter-spacing: 2px;
 }
 #brand {
@@ -82,7 +82,7 @@ p > a:active{
 
 .portfolioContentSection {
 	padding-top: 0px;
-  padding-bottom: 250px;
+  padding-bottom: 200px;
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -96,11 +96,15 @@ p > a:active{
 .socialMedia {
   width: 30px;
   padding-bottom: 10px;
+  padding-left:5px;
+  padding-right:5px;
   opacity: 1;
   transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
 }
+
+
 .socialMedia:hover {
   opacity: 0.5;
 }
@@ -131,9 +135,10 @@ p > a:active{
 }
 
 h2{
-	font-family:  'Helvetica Neue', Arial,sans-serif;
+	font-family:  Times, serif;
   font-weight: 200;
   padding-bottom: 20px;
+  text-transform: lowercase;
 }
 p{
    text-align: justify;
@@ -143,13 +148,14 @@ p{
   padding-left: 10px;
 }
 .blockHeading {
-	font-family:  'Helvetica Neue', Arial,sans-serif;
+	font-family:  Times, serif;
   font-weight: 200;
   letter-spacing: 1px;
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
   padding-bottom: 20px;
   padding-top: 100px;
+  text-transform: lowercase;
 }
 .aboutMe {
   background: #FFE8E8;
@@ -168,6 +174,7 @@ p{
   z-index: 1;
 }
 
+
 #carousel {
   margin-bottom: 0px;
   padding-top: 0px;
@@ -182,10 +189,10 @@ margin-bottom: 60px;
 }
 @media (max-width: 767px) {
   .blockHeading {
-		font-family:  'Helvetica Neue', Arial,sans-serif;
     font-weight: lighter;
     text-align: center;
     font-size: 30px;
+    padding-bottom: 0px;
   }
   #block1 {
     position: relative;
@@ -197,14 +204,19 @@ margin-bottom: 60px;
   width: 35px;
   }
   .subhead {
-  font-size: 15px;
+  font-size: 25px;
   }
   .navbar-nav > li > a {
     font-size: 15px;
   }
   .footerSection {
     padding-bottom: 30px;
+    text-align: center;
+    display: block;
   }
+
+
+
   .footer {
     margin-top: 0px;
     padding-top: 0px;
