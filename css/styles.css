@@ -222,8 +222,11 @@ margin-bottom: 60px;
 
 .landingImage {
 opacity: .7;
+}
 
-
+.formInput {
+margin-top:20px;
+margin-bottom:10px;
 }
 
 @media (max-width: 767px) {
